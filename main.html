@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	
-		<form>
-			<lable for= "name">Name</lable><br>
-			<input type = "text" id="name" placeholder ="Name"><br>
-			<lable for ="phone">phone</label><br>
-				<input type = "text" id ="phone" placeholder="Phone Number"><br>
-				<lable for ="address" >address</lable><br>
-				<input type="text" id ="address" placeholder="Address"><br>
-				<lable for ="tick">Have you ever lived with a Dog before?</lable>
-				<input type="checkbox" id ="checkbox" value="Have you ever lived with a Dog before?"><br>
-<!-- 				<lable for="select">Have you ever lived with a Dog before?</lable> -->
-				
-				<label for="dog">Please select your preferred breeds</label>
-				<select name="dog" id="multiSelect"  value ="multiSelect" multiple>
-				  <option value="beagles">beagles</option>
-				  <option value="german">german</option>
-				  <option value="Bulldog">Bulldog</option>
-				</select><br>
-				<input type ="submit" value="Submit" id ="submit">
-	
-		</form>
-</script>
-
-</body>
-
-</html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    	<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    	<form id="my-form" method="post">
+    		  <input type="text" id="name" name="name" placeholder="Name">
+    		  <input type="text" id="phone" name="phone" placeholder="Phone Number">
+    		  <input type="text" id="address" name="address" placeholder="Address">
+    		  <label><input type="checkbox" id="checkbox" name="address" value="Have you ever lived with a Dog before?">Have you ever lived with a Dog before?</label>
+    		  <select id="multiSelect">
+    		  <option value="1">American Black Bear</option>
+    		  <option value="2">Asiatic Black Bear</option>
+    		  <option value="3">Brown Bear</option>
+    		  </select>
+    		  <input id="submit" type="submit" value="Submit">
+    	</form>
+    	<!-- the entire body must be written by student -->
+        <script type="text/javascript" src="./script.js">
+    </script>
+    </body>
+    </html>
